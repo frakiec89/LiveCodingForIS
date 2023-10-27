@@ -2,8 +2,8 @@
 using ConsoleApp4.Services;
 using ConsoleApp4.ModelView;
 
-IAuthorizationService _authSevice = new AuthorizationService();
-IGenerationPage  _generation = new GenerationPage();    
+IAuthorizationService _authSevice = new AuthorizationService(); // зависимости
+IGenerationPage  _generation = new GenerationPage();     // зависимости
 
 Console.WriteLine("Привет  я  программа для авторизации");
 
